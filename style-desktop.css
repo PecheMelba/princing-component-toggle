@@ -1,0 +1,40 @@
+@media all and (min-width: 900px)
+{
+
+    #filter-container
+    {
+        width:30%;
+        margin:0 auto;
+    }
+    #toggle-container:hover
+    {
+        cursor: pointer;
+        background: linear-gradient(to right ,hsla(236, 72%, 79%, 0.363), hsl(237, 63%, 64%, 0.363));
+    }
+
+    #cards-container
+    {
+        display: flex;
+        align-items: center;
+        width:75%;
+        margin: 0 auto;
+    }
+    .card
+    {
+        height: 48vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #central-card
+    {
+        height: 53vh;
+    }
+
+    .learn-more-btn:hover
+    {
+        cursor: pointer;
+        background-color: white;
+        border: 1px solid hsl(237, 63%, 64%);
+    }
+}

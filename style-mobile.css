@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat";
+}
+body
+{
+    background:hsl(240, 78%, 98%)  url("images/bg-top.svg") no-repeat right -53vw top -5vh; 
+    text-align: center;
+}
+
+/* ---------------HEADER------------- */
+header
+{
+    width: 80%;
+    margin: 5em auto 4em auto;    
+}
+h1
+{
+    font-size: 2.5em;
+    font-weight: bold;
+    color:rgb(80, 80, 80);
+    margin-bottom: 1em;
+}
+#filter-container
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    color: grey;
+}
+#toggle-container
+{
+    position: relative;
+    background: linear-gradient(to right ,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    
+    padding:1em 1.8em;
+    border-radius:1em;
+}
+#toggle-cursor
+{
+    position:absolute;
+    top:0.2em;
+    right: 0.2em;
+    padding: 0.8em;
+    border-radius:50%;
+    background-color: white;;
+}
+/* -----------------CARDS-------------- */
+.card
+{
+    width:70%;
+    margin: 0 auto 1em auto; 
+    background-color: white;
+    border-radius:1em;
+    padding:2em;
+}
+h2
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgb(73, 73, 73);
+    margin-bottom: 1em;
+}
+.yearly-price { display: none;}
+.price-container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(37, 37, 37);
+}
+.price-nb
+{
+    font-size:4em;
+    font-weight: bold;
+}
+.dollar-logo
+{
+    font-size:2em;
+    font-weight: bold;
+}
+hr
+{    
+    opacity: 0.5;
+    margin: 1em 0 1em 0;
+}
+
+.stroage-txt, .user-allowed-txt, .send-up-txt
+{
+    font-weight: bold;
+    color:rgb(73, 73, 73);
+}
+.learn-more-btn
+{
+    background: linear-gradient(to right ,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border-radius:0.5em;
+    padding:1em;
+
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid hsla(237, 63%, 64%, 0);
+
+}
+
+#central-card
+{
+    background: linear-gradient(to right ,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    
+}
+#central-card h2, #central-card .price-container { color: white;}
+#central-card .stroage-txt, #central-card .user-allowed-txt, #central-card .send-up-txt
+{
+    color:rgb(255, 255, 255);
+}
+#central-card .learn-more-btn
+{
+    background: white;
+    color:hsl(237, 63%, 64%);
+}
+.learn-more-btn:hover
+{
+    cursor: pointer;
+    background: white;
+    border: 1px solid hsl(237, 63%, 64%);
+    color:hsl(237, 63%, 64%);
+}
+#central-card .learn-more-btn:hover
+{
+    cursor: pointer;
+    background: linear-gradient(to right ,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border: 1px solid hsl(0, 0%, 100%);
+    color:white;
+}
+#toggle-container:hover
+{
+    cursor: pointer;
+    background: linear-gradient(to right ,hsla(236, 72%, 79%, 0.363), hsl(237, 63%, 64%, 0.363));
+}
